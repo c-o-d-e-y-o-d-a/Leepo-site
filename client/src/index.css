@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: rgb(241, 245, 241);
+}
+
+.bg-leepo{
+    background-image: url('client/src/utils/bg-leepo.png');
+    background-repeat: no-repeat;
+}
+
+
+
+.cont {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-2044837-jpeg.jpg") center center no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 130vh;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  font-size: 12pt;
+  font-family: 'Spartan';
+  color: #2A293E;
+  margin: 0;
+  padding: 0;
+}
+.c{
+     background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-2044837-jpeg.jpg") center center ;
+}
+
+.contact-us {
+  background: #f8f4e5;
+  padding: 50px 100px;
+  border-top: 10px solid #f45702;
+}
+
+.contact-us label, .contact-us input, .contact-us textarea {
+  display: block;
+  width: 100%;
+  font-size: 12pt;
+  line-height: 24pt;
+  font-family: 'Spartan';
+}
+
+.contact-us input {
+  margin-bottom: 24pt;
+}
+
+.contact-us h3 {
+  font-weight: normal;
+  font-size: 10pt;
+  line-height: 24pt;
+  font-style: italic;
+  margin: 0 0 .5em 0;
+}
+
+.contact-us span {
+  font-size: 8pt;
+}
+
+.contact-us em {
+  color: #f45702;
+  font-weight: bold;
+}
+
+.contact-us input, .contact-us textarea {
+  border: none;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 2px;
+  background: #f8f4e5;
+  padding-left: 5px;
+  outline: none;
+}
+
+.contact-us input:focus, .contact-us textarea:focus {
+  border: 1px solid #6bd4b1;
+}
+
+.contact-us textarea {
+  resize: none;
+}
+
+.contact-us button {
+  display: block;
+  float: right;
+  line-height: 24pt;
+  padding: 0 20px;
+  border: none;
+  background: #f45702;
+  color: white;
+  letter-spacing: 2px;
+  transition: .2s all ease-in-out;
+  border-bottom: 2px solid transparent;
+  outline: none;
+}
+
+.contact-us button:hover {
+  background: inherit;
+  color: #f45702;
+  border-bottom: 2px solid #f45702;
+}
+
+::selection {
+  background: rgb(255, 199, 184);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus {
+  border: 1px solid #6bd4b1;
+  -webkit-text-fill-color: #2A293E;
+  -webkit-box-shadow: 0 0 0px 1000px #f8f4e5 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
