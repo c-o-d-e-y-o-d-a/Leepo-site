@@ -20,14 +20,14 @@ function App() {
         
         <Route path='/about' element={<About />} />
         <Route path='/search' element={<Search />} />
-        <Route path='/search' element={<Search />} />
+        
         <Route path='/contact' element={<Contact />} />
         
         <Route path='/listing/:listingId' element={<Listing />} />
 
         
           <Route path='/profile' element={<Profile />} />
-          <Route path='/create-listing' element={<CreateListing />} />
+          <Route path='/createListing' element={<CreateListing />} />
           
         
       </Routes>

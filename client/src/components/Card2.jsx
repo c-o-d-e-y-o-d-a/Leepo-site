@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Card = ({ to, from, when, reason }) => {
+const Card2 = ({ to, from, when, reason }) => {
   return (
 
 
@@ -34,7 +34,7 @@ const Card = ({ to, from, when, reason }) => {
     </div>
     
     <button className="bg-blue-800 text-white py-2 px-4 rounded-md hover:bg-blue-600">
-      <a href="https://mediafiles.botpress.cloud/e466fd62-271b-4607-a5d6-9d9937bdcca7/webchat/bot.html" target='_blank'>Join Tour</a>
+      Delete Listing
     </button>
   </div>
 </div>
@@ -45,4 +45,4 @@ const Card = ({ to, from, when, reason }) => {
   );
 };
 
-export default Card;
+export default Card2;

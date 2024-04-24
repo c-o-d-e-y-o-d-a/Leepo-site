@@ -54,7 +54,16 @@ export default function Header() {
               Contact Us
             </li>
           </Link>
-          <Link to='/profile'>
+          
+          <SignedIn>
+             <Link to='/profile'>
+            <li className='hidden sm:inline text-slate-700 hover:underline'>
+              Profile
+            </li>
+          </Link>
+          </SignedIn>
+
+          <Link >
             
             <SignedOut>
         <SignInButton />
@@ -63,6 +72,8 @@ export default function Header() {
         <UserButton />
       </SignedIn>
           </Link>
+
+          
         </ul>
       </div>
     </header>
