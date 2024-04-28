@@ -8,8 +8,17 @@ import CardAbout from '../components/CardAbout';
 export default function About() {
   return (
     <>
-      <div className='py-20 px-4   text-lg text-center bg-gradient-to-br from-yellow-100 to-rose-100'>
-        <h1 className='text-4xl font-bold mb-4 text-slate-800 mt-20'>About LEEPO</h1>
+    <ul class="about-bg">
+   <li class="about-bg-item"></li>
+   <li class="about-bg-item"></li>
+   <li class="about-bg-item"></li>
+   <li class="about-bg-item"></li>
+   <li class="about-bg-item"></li>
+   <li class="about-bg-item"></li>
+   <li class="about-bg-item"></li>
+
+   <div className=' px-4   z-[1000px] text-lg text-center text-white '>
+        <h1 className='text-4xl font-bold mb-4 text-slate-800 mt-20 '>About LEEPO</h1>
         <p className='mb-8 text-slate-700 p-6 md:p-16'>
           Leepo is an innovative platform that revolutionizes the way people travel. It’s a unique social networking site designed specifically for travelers, enabling them to connect with others who have similar travel plans.
           Imagine planning a trip to a new city or country, and being able to find someone else who is also traveling to the same destination within the same time frame. This is exactly what Leepo offers.
@@ -28,6 +37,25 @@ export default function About() {
           <CardAbout content='Time-Efficient Planning' heading='Collaborate on travel plans and make the most of your time on your adventures.'/>
         </div>  */}
       </div>
+   
+   <li class="about-bg-item"></li>
+   <li class="about-bg-item"></li>
+   <li class="about-bg-item"></li>
+   <li class="about-bg-item"></li>
+   <li class="about-bg-item"></li>
+   <li class="about-bg-item"></li>
+   <li class="about-bg-item"></li>
+   <li class="about-bg-item"></li>
+   <li class="about-bg-item"></li>
+   <li class="about-bg-item"></li>
+   <li class="about-bg-item"></li>
+   <li class="about-bg-item"></li>
+   <li class="about-bg-item"></li>
+   <li class="about-bg-item"></li>
+   <li class="about-bg-item"></li>
+</ul>
+
+      
       <Footer/>
     </>
   );

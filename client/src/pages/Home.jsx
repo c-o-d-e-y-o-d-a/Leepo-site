@@ -4,36 +4,16 @@ import Card from '../components/Card';
 import Footer from '../components/Footer';
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/clerk-react";
 
-import {addDoc, collection,getDocs} from "firebase/firestore";
-import { db } from '../firebase-config';
+
 
 
 const Home = () => {
 
 
-   const [tours,setTours] = useState([]);
-   const usersCollectionRef = collection(db,"allTours");
-  useEffect(() => {
-  const getTours = async () => {
-    const data = await getDocs(usersCollectionRef);
-    setTours(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
-  };
-
-  getTours();
-}, []);
+  
 
 
-const [newTo, setNewTo] = useState("dsfsdf");
-const [newFrom, setNewFrom] = useState("dsfsdf");
-const [newWhen, setNewWhen] = useState(new Date());
-const [newReason, setNewReason] = useState("sdfsdf");
-const [newCreatorName, setNewCreatorName] = useState("dfsdf");
-const [newCreatorEmail, setNewCreatorEmail] = useState("fsdfsdf");
 
-
-const createTour = async () => {
-  await addDoc(usersCollectionRef,{to:newTo,from:newFrom,when:newWhen,reason:newReason,creatorName:newCreatorName,CreatorEmail:newCreatorEmail});
-}
 
 
 
@@ -47,6 +27,7 @@ const createTour = async () => {
         </div>
       </SignedOut>
 
+    
 
        <section className="bg-gray-900 pb-6"> {/* Use className instead of class */}
           <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
@@ -65,6 +46,7 @@ const createTour = async () => {
               <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
                   <img src="\leepoLogo.png" alt="mockup"/>
               </div>
+              
           </div>
       </section>
 
@@ -78,11 +60,7 @@ const createTour = async () => {
         <div className="flex-grow h-px bg-gray-400"></div>
       </div>
 
-      {tours.map((tour) => (
-  <div key={tour.id}>
-    {tour.to}{tour.from}
-  </div>
-))}
+      
 
       <div className='grid justify-center  items-center grid-cols-1 ps-8 sm:grid-cols-2 p-6 md:grid-cols-3 my-8 gap-y-6 md:gap-y-10 gap-x-4 md:gap-x-28   '>
         <Card from='Delhi' to='Greater noida' when='17 th december' reason='Carpooling'/>

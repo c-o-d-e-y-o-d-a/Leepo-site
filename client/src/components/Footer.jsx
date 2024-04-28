@@ -1,6 +1,8 @@
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-6 mt-10 opacity-85">
+    <footer className="bg-black fixed bottom-0 text-white py-6 mt-10 opacity-85 footer-bg"  >
+     
+      
       <div className="container mx-auto flex flex-col gap-2 items-center justify-between">
         {/* Logos section */}
         <div className="flex justify-center md:justify-start mb-4 gap-4 ">
@@ -34,6 +36,54 @@ const Footer = () => {
       <div className="text-center">
         LEEPO Copyright © 2024 Nischal Gautam - All rights reserved || Created By: <a href="https://portfolio-site-eight-beta.vercel.app/" target='_blank' className="text-blue-500">Nischal Gautam</a>
       </div>
+       <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
+      <span className="bg-footer-elmt"></span>
     </footer>
   );
 };
